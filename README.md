@@ -6,14 +6,11 @@ Official Homebrew tap for [neossh](https://github.com/WhiteRoseLK/neossh).
 
 ```bash
 brew tap WhiteRoseLK/tap
+brew trust WhiteRoseLK/tap
 brew install neossh
 ```
 
-Or install directly with one command:
-
-```bash
-brew install WhiteRoseLK/tap/neossh
-```
+*(Note: On recent Homebrew versions, `brew trust WhiteRoseLK/tap` is required by Homebrew for third-party taps before loading formulas).*
 
 ## Available Formulae
 
