@@ -52,7 +52,6 @@ class Neossh < Formula
   end
 
   conflicts_with "lazyssh", because: "neossh is an actively maintained fork of lazyssh"
-  conflicts_with "adembc/tap/lazyssh", because: "neossh is an actively maintained fork of lazyssh"
 
   def caveats
     <<~EOS
