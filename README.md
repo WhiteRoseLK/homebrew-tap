@@ -1,20 +1,22 @@
 # Homebrew Tap for WhiteRoseLK
 
+Official Homebrew tap for [neossh](https://github.com/WhiteRoseLK/neossh).
+
 ## How to use
 
 ```bash
 brew tap WhiteRoseLK/tap
-brew install lazyssh
+brew install neossh
 ```
 
-Or directly:
+Or install directly with one command:
 
 ```bash
-brew install WhiteRoseLK/tap/lazyssh
+brew install WhiteRoseLK/tap/neossh
 ```
 
 ## Available Formulae
 
-| Formula | Description |
-|---------|-------------|
-| lazyssh | A terminal-based SSH manager inspired by lazydocker and k9s |
+| Formula | Description | Upstream Lineage |
+|---------|-------------|-------------------|
+| **neossh** | A modern terminal-based SSH manager inspired by lazydocker and k9s | Successor to lazyssh |
