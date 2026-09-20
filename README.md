@@ -19,4 +19,4 @@ brew install WhiteRoseLK/tap/neossh
 
 | Formula | Description | Upstream Lineage |
 |---------|-------------|-------------------|
-| **neossh** | A modern terminal-based SSH manager inspired by lazydocker and k9s | Successor to lazyssh |
+| **neossh** | An actively maintained fork and continuation of lazyssh | Fork of [Adembc/lazyssh](https://github.com/Adembc/lazyssh) |
