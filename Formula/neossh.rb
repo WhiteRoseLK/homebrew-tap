@@ -5,21 +5,21 @@
 class Neossh < Formula
   desc "An actively maintained fork and continuation of lazyssh"
   homepage "https://github.com/WhiteRoseLK/neossh"
-  version "1.0.0"
+  version "2.0.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/WhiteRoseLK/neossh/releases/download/v1.0.0/neossh_Darwin_x86_64.tar.gz"
-      sha256 "097ae1043e563d55c425e69eaf1451359e248cca468826b88f05fbe64a96490f"
+      url "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Darwin_x86_64.tar.gz"
+      sha256 "fd446f27f1681596d54a5cc300b00cc88346b15db9e17089265cf09e863df59d"
 
       def install
         bin.install "neossh"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/WhiteRoseLK/neossh/releases/download/v1.0.0/neossh_Darwin_arm64.tar.gz"
-      sha256 "d5df0d0a1768fa2fd9df6d7e017bfd12f9943616632d32d3e6efe6e3719a0ef7"
+      url "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Darwin_arm64.tar.gz"
+      sha256 "d757584fae629b37e568c6ce6805159b6bfc2bb67915663ee5bc3dabd65fc0bc"
 
       def install
         bin.install "neossh"
@@ -29,22 +29,22 @@ class Neossh < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/WhiteRoseLK/neossh/releases/download/v1.0.0/neossh_Linux_x86_64.tar.gz"
-      sha256 "933e711287a63cf37587b9bacec07ad6649ff345c6abe657c1960ded286c5e02"
+      url "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Linux_x86_64.tar.gz"
+      sha256 "bb7e18c6ccfdaec7e52595c542ecfa01174b1b5ee8fe52cdf35275c4774e7a00"
       def install
         bin.install "neossh"
       end
     end
     if Hardware::CPU.arm? and !Hardware::CPU.is_64_bit?
-      url "https://github.com/WhiteRoseLK/neossh/releases/download/v1.0.0/neossh_Linux_armv6.tar.gz"
-      sha256 "671584f71c46b0875a6be591f3b8e02f8e6ab3233c90da960d65566a75307d08"
+      url "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Linux_armv6.tar.gz"
+      sha256 "33f27264a722221249edd9ee7f27cf86a2ee9e865c9b39d7869201d8d819dfb5"
       def install
         bin.install "neossh"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/WhiteRoseLK/neossh/releases/download/v1.0.0/neossh_Linux_arm64.tar.gz"
-      sha256 "d03455d52649ec0269f43e9eed23cf475680438d297eab7a14504a88c12270c9"
+      url "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Linux_arm64.tar.gz"
+      sha256 "8284007eb03583360b22f789cca541a3fdb4d38c598ed3eeee85f82cd12a3844"
       def install
         bin.install "neossh"
       end
